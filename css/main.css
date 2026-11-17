@@ -90,25 +90,33 @@ body::selection {
 /* about */
 .main-title-img {
   display: block;
-  margin: 0 auto -36px;
+  margin: 0 auto -55px;
   width: 170px;
   filter: drop-shadow(0 0 12px var(--sub-color));
 }
 
 .link-none {
   color: var(--text-color);
+  transition: 0.3s;
 }
 
 .link-none:hover {
   text-shadow: 0 0 8px var(--text-color);
+  transition: 0.3s;
 }
 
 .link-logo {
   vertical-align: baseline;
+  transition: 0.3s;
 }
 
 .link-logo:hover {
   filter: drop-shadow(0 0 5px var(--text-color));
+  transition: 0.3s;
+}
+
+.font-sub {
+  color: var(--shadow-color);
 }
 
 
