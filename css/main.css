@@ -29,6 +29,10 @@
   font-size: 14.8px;
 }
 
+.font-ms {
+  font-size: 13.8px;
+}
+
 .font-sm {
   font-size: 12.8px;
 }
@@ -55,10 +59,6 @@ body {
 body::selection {
   font-weight: 400;
   background-color: var(--sub-color);
-}
-
-.font-hover-point:hover {
-  font-family: "Rampart One", sans-serif;
 }
 
 
@@ -115,8 +115,21 @@ body::selection {
   transition: 0.3s;
 }
 
+.main-filter-btn:hover {
+  filter: drop-shadow(0 0 5px var(--text-color));
+  transition: 0.3s;
+}
+
 .font-sub {
   color: var(--shadow-color);
+}
+
+.box-active {
+  display: block;
+}
+
+.box-hidden {
+  display: none;
 }
 
 
